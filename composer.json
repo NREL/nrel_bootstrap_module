@@ -29,5 +29,8 @@
       "url": "https://asset-packagist.org"
     },
     "packages.drupal.org": false
+  },
+  "require": {
+    "nrel/nrel_bootstrap": "dev-master"
   }
 }
