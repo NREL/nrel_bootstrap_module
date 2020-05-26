@@ -1,0 +1,36 @@
+{
+  "name": "nrel/nrel_boostrap_module",
+  "description": "Companion module to the NREL Bootstrap theme.",
+  "type": "drupal-module",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/NREL/nrel_bootstrap_module",
+  "authors": [
+    {
+      "name": "Shaun Laws (slaws)",
+      "email": "shaun.laws@nrel.gov",
+      "role": "Co-maintainer"
+    },
+    {
+      "name": "Chris Modern (cmodern)",
+      "email": "christian.modern@nrel.gov",
+      "role": "Co-maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/NREL/nrel_bootstrap_module/issues"
+  },
+  "require": {
+    "nrel/nrel_bootstrap": "dev-master"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "assets": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "packages.drupal.org": false
+  }
+}
