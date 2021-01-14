@@ -31,6 +31,6 @@
     "packages.drupal.org": false
   },
   "require": {
-    "nrel/nrel_bootstrap": "dev-master"
+    "nrel/nrel_bootstrap": "dev-8.x-5.1.4"
   }
 }

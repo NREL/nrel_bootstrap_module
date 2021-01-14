@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c64926af3096cad56628a25f64a3eb7",
+    "content-hash": "904d1e21c9fc696a431632ac467c4943",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -863,6 +863,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-03-27T11:06:43+00:00"
         },
         {
@@ -921,6 +922,56 @@
                 "docs": "https://drupal-bootstrap.org",
                 "issues": "https://www.drupal.org/project/issues/bootstrap",
                 "irc": "irc://irc.freenode.org/drupal-bootstrap"
+            }
+        },
+        {
+            "name": "drupal/bootstrap_barrio",
+            "version": "5.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
+                "reference": "5.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.1.4.zip",
+                "reference": "5.1.4",
+                "shasum": "957a76d18eecfb1062088f22d3ba9ae9b79af240"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "twbs/bootstrap": "^4.4.1"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "5.1.4",
+                    "datestamp": "1603660710",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alberto Siles",
+                    "homepage": "https://www.drupal.org/user/2824325",
+                    "email": "alberto@siles.pe"
+                },
+                {
+                    "name": "hatuhay",
+                    "homepage": "https://www.drupal.org/user/827704"
+                }
+            ],
+            "description": "Bootstrap 4 base theme.",
+            "homepage": "https://www.drupal.org/project/bootstrap_barrio",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_barrio"
             }
         },
         {
@@ -1213,12 +1264,12 @@
             "version": "0.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/njh/easyrdf.git",
+                "url": "https://github.com/easyrdf/easyrdf.git",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "shasum": ""
             },
@@ -1586,21 +1637,20 @@
         },
         {
             "name": "nrel/nrel_bootstrap",
-            "version": "dev-master",
+            "version": "dev-8.x-5.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/nrel_bootstrap.git",
-                "reference": "c2aaae8594e2a15f56366c07a34196636b219eb0"
+                "reference": "c86707e815b3b75ee9ee0a50dfb5f63fd449abda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/c2aaae8594e2a15f56366c07a34196636b219eb0",
-                "reference": "c2aaae8594e2a15f56366c07a34196636b219eb0",
+                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/c86707e815b3b75ee9ee0a50dfb5f63fd449abda",
+                "reference": "c86707e815b3b75ee9ee0a50dfb5f63fd449abda",
                 "shasum": ""
             },
             "require": {
-                "drupal/bootstrap": "~3.13",
-                "drupal/bootstrap_layouts": "^5.1"
+                "drupal/bootstrap_barrio": "^5"
             },
             "require-dev": {
                 "drupal/console": "~1",
@@ -1611,16 +1661,16 @@
             "type": "drupal-theme",
             "extra": {
                 "installer-paths": {
-                    "build/core": [
+                    "web/core": [
                         "type:drupal-core"
                     ],
-                    "build/modules/contrib/{$name}": [
+                    "web/modules/contrib/{$name}": [
                         "type:drupal-module"
                     ],
-                    "build/profiles/contrib/{$name}": [
+                    "web/profiles/contrib/{$name}": [
                         "type:drupal-profile"
                     ],
-                    "build/themes/contrib/{$name}": [
+                    "web/themes/contrib/{$name}": [
                         "type:drupal-theme"
                     ]
                 }
@@ -1641,9 +1691,9 @@
                     "role": "Co-maintainer"
                 }
             ],
-            "description": "NREL.gov APP branded theme for Bootstrap 3",
+            "description": "NREL.gov APP branded theme for Bootstrap 3 and 4",
             "homepage": "https://github.com/NREL/nrel_bootstrap",
-            "time": "2020-05-26T18:43:01+00:00"
+            "time": "2021-01-14T00:24:57+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3896,6 +3946,63 @@
                 }
             ],
             "time": "2020-04-24T10:16:04+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a716fb03f965dc0846df479e14388b1b4b93d7ce",
+                "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-10-13T15:38:30+00:00"
         },
         {
             "name": "twig/twig",
