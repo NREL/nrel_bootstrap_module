@@ -3,6 +3,8 @@
   "description": "Companion module to the NREL Bootstrap theme.",
   "type": "drupal-module",
   "license": "GPL-2.0",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
   "homepage": "https://github.com/NREL/nrel_bootstrap_module",
   "authors": [
     {
@@ -24,13 +26,23 @@
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    "assets": {
+    "assets" : {
       "type": "composer",
-      "url": "https://asset-packagist.org"
+      "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+      "options" : {
+        "ssl" : {
+          "verify_peer": false,
+          "allow_self_signed": true
+        }
+      }
     },
-    "packages.drupal.org": false
+    "dev": {
+      "type": "github",
+      "url": "https://github.com/acquia/lightning-dev",
+      "no-api": true
+    }
   },
   "require": {
-    "nrel/nrel_bootstrap": "dev-8.x-5.1.4"
+    "nrel/nrel_bootstrap": "dev-8.x-4.5.3"
   }
 }
