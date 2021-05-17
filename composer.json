@@ -26,20 +26,9 @@
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    "assets" : {
+    "assets": {
       "type": "composer",
-      "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
-      "options" : {
-        "ssl" : {
-          "verify_peer": false,
-          "allow_self_signed": true
-        }
-      }
-    },
-    "dev": {
-      "type": "github",
-      "url": "https://github.com/acquia/lightning-dev",
-      "no-api": true
+      "url": "https://asset-packagist.org"
     }
   },
   "require": {
