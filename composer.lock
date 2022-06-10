@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a075fd935a8997913c94f5714efeb3c3",
+    "content-hash": "c20e35a6e529fc3d12bea5348931ffef",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1754,16 +1754,16 @@
         },
         {
             "name": "nrel/nrel_bootstrap",
-            "version": "dev-master",
+            "version": "dev-8.x-4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/nrel_bootstrap.git",
-                "reference": "d7a538f14112ae5c7de063e4cb66cfa1e729ba71"
+                "reference": "29671899891d3f82a3ad64cccb4f1f6d5f68a0f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/d7a538f14112ae5c7de063e4cb66cfa1e729ba71",
-                "reference": "d7a538f14112ae5c7de063e4cb66cfa1e729ba71",
+                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/29671899891d3f82a3ad64cccb4f1f6d5f68a0f3",
+                "reference": "29671899891d3f82a3ad64cccb4f1f6d5f68a0f3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1782,7 +1782,6 @@
                 "drupal/console": "~1",
                 "drush/drush": "*"
             },
-            "default-branch": true,
             "type": "drupal-theme",
             "extra": {
                 "installer-paths": {
@@ -1820,7 +1819,7 @@
             "homepage": "https://github.com/NREL/nrel_bootstrap",
             "support": {
                 "issues": "https://github.com/NREL/nrel_bootstrap/issues",
-                "source": "https://github.com/NREL/nrel_bootstrap/tree/master"
+                "source": "https://github.com/NREL/nrel_bootstrap/tree/8.x-4.5.3"
             },
             "transport-options": {
                 "ssl": {
@@ -1828,7 +1827,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-06-10T14:41:41+00:00"
+            "time": "2022-06-10T14:41:21+00:00"
         },
         {
             "name": "pear/archive_tar",
