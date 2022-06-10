@@ -28,10 +28,16 @@
     },
     "assets": {
       "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  },
+      "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
+      "options": {
+          "ssl": {
+              "verify_peer": false,
+              "allow_self_signed": true
+          }
+      }
+  }
+},
   "require": {
-    "nrel/nrel_bootstrap": "dev-8.x-4.5.3"
+    "nrel/nrel_bootstrap": "dev-master"
   }
 }
