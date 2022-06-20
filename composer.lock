@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c20e35a6e529fc3d12bea5348931ffef",
+    "content-hash": "a90aea03a724d02011449f9a45db9547",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -481,56 +481,6 @@
                 "docs": "https://drupal-bootstrap.org",
                 "issues": "https://www.drupal.org/project/issues/bootstrap",
                 "irc": "irc://irc.freenode.org/drupal-bootstrap"
-            }
-        },
-        {
-            "name": "drupal/bootstrap_barrio",
-            "version": "5.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "5.1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.1.6.zip",
-                "reference": "5.1.6",
-                "shasum": "788c48197afdcb248aa69d8e9fd756411e972b57"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10",
-                "twbs/bootstrap": "^4.4.1"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "5.1.6",
-                    "datestamp": "1633697540",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alberto Siles",
-                    "homepage": "https://www.drupal.org/user/2824325",
-                    "email": "alberto@siles.pe"
-                },
-                {
-                    "name": "hatuhay",
-                    "homepage": "https://www.drupal.org/user/827704"
-                }
-            ],
-            "description": "Bootstrap 4 base theme.",
-            "homepage": "https://www.drupal.org/project/bootstrap_barrio",
-            "support": {
-                "source": "https://git.drupalcode.org/project/bootstrap_barrio"
             }
         },
         {
@@ -1754,16 +1704,16 @@
         },
         {
             "name": "nrel/nrel_bootstrap",
-            "version": "dev-8.x-4.5.3",
+            "version": "dev-sws-only",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/nrel_bootstrap.git",
-                "reference": "29671899891d3f82a3ad64cccb4f1f6d5f68a0f3"
+                "reference": "48fd7a30b1e35be2a87d00772341c796d9cb5330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/29671899891d3f82a3ad64cccb4f1f6d5f68a0f3",
-                "reference": "29671899891d3f82a3ad64cccb4f1f6d5f68a0f3",
+                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/48fd7a30b1e35be2a87d00772341c796d9cb5330",
+                "reference": "48fd7a30b1e35be2a87d00772341c796d9cb5330",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1774,7 +1724,6 @@
             },
             "require": {
                 "drupal/bootstrap": "~3.13",
-                "drupal/bootstrap_barrio": "~5.1.0",
                 "drupal/bootstrap_layouts": "^5.1",
                 "nrel/nrel_app_template_bootstrap4": "dev-master"
             },
@@ -1819,7 +1768,7 @@
             "homepage": "https://github.com/NREL/nrel_bootstrap",
             "support": {
                 "issues": "https://github.com/NREL/nrel_bootstrap/issues",
-                "source": "https://github.com/NREL/nrel_bootstrap/tree/8.x-4.5.3"
+                "source": "https://github.com/NREL/nrel_bootstrap/tree/sws-only"
             },
             "transport-options": {
                 "ssl": {
@@ -1827,7 +1776,7 @@
                     "allow_self_signed": true
                 }
             },
-            "time": "2022-06-10T14:41:21+00:00"
+            "time": "2022-06-20T18:10:34+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -5328,73 +5277,6 @@
                 }
             },
             "time": "2022-01-24T20:11:01+00:00"
-        },
-        {
-            "name": "twbs/bootstrap",
-            "version": "v4.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "043a03c95a2ad6738f85b65e53b9dbdfb03b8d10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/043a03c95a2ad6738f85b65e53b9dbdfb03b8d10",
-                "reference": "043a03c95a2ad6738f85b65e53b9dbdfb03b8d10",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://asset-packagist.nrel.gov/nrel/drupal8/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "replace": {
-                "twitter/bootstrap": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "notification-url": "https://asset-packagist.nrel.gov/nrel/drupal8/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                },
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                }
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "https://getbootstrap.com/",
-            "keywords": [
-                "JS",
-                "css",
-                "framework",
-                "front-end",
-                "mobile-first",
-                "responsive",
-                "sass",
-                "web"
-            ],
-            "support": {
-                "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
-            "time": "2021-10-28T14:45:21+00:00"
         },
         {
             "name": "twig/twig",
