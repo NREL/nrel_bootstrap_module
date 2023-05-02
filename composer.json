@@ -38,6 +38,7 @@
   }
 },
   "require": {
-    "nrel/nrel_bootstrap": "dev-8.x-4.5.3"
+    "nrel/nrel_bootstrap": "dev-8.x-4.5.3",
+    "drupal/core": "9.5.8"
   }
 }
