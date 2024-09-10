@@ -38,6 +38,6 @@
   }
 },
   "require": {
-    "nrel/nrel_bootstrap": "dev-barrio-10-1-10"
+    "nrel/nrel_bootstrap": "dev-barrio-5-1-10"
   }
 }
