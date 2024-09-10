@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c20e35a6e529fc3d12bea5348931ffef",
+    "content-hash": "2b825560223bfb1adad23cc1e7938411",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -65,12 +65,6 @@
             "support": {
                 "issues": "https://github.com/asm89/stack-cors/issues",
                 "source": "https://github.com/asm89/stack-cors/tree/v2.1.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2022-01-18T09:12:03+00:00"
         },
@@ -159,12 +153,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-31T09:50:34+00:00"
         },
         {
@@ -247,12 +235,6 @@
                 "issues": "https://github.com/doctrine/annotations/issues",
                 "source": "https://github.com/doctrine/annotations/tree/1.14.3"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-02-01T09:20:38+00:00"
         },
         {
@@ -305,12 +287,6 @@
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/v1.1.1"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-06-03T09:27:29+00:00"
         },
@@ -396,12 +372,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2022-12-14T08:49:07+00:00"
         },
         {
@@ -674,12 +644,6 @@
             "support": {
                 "source": "https://github.com/drupal/core/tree/10.1.4"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-09-19T17:57:50+00:00"
         },
         {
@@ -753,12 +717,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-14T14:17:03+00:00"
         },
         {
@@ -891,12 +849,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-27T10:20:53+00:00"
         },
         {
@@ -986,12 +938,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-03T15:11:55+00:00"
         },
         {
@@ -1114,12 +1060,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-27T10:13:57+00:00"
         },
         {
@@ -1193,12 +1133,6 @@
                 "issues": "https://github.com/Masterminds/html5-php/issues",
                 "source": "https://github.com/Masterminds/html5-php/tree/2.8.1"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-10T11:58:31+00:00"
         },
         {
@@ -1254,12 +1188,6 @@
                 "issues": "https://github.com/mck89/peast/issues",
                 "source": "https://github.com/mck89/peast/tree/v1.15.4"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-12T08:29:29+00:00"
         },
         {
@@ -1301,26 +1229,20 @@
                 "issues": "https://github.com/NREL/nrel-app-template-bootstrap4/issues",
                 "source": "https://github.com/NREL/nrel-app-template-bootstrap4/tree/master"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-09-08T16:42:37+00:00"
         },
         {
             "name": "nrel/nrel_bootstrap",
-            "version": "dev-8.x-4.5.3",
+            "version": "dev-barrio-10-1-10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NREL/nrel_bootstrap.git",
-                "reference": "bf3d822ba0f86dad26efb4b73466eed7afa5bca7"
+                "reference": "952c4937acb0046f55f82ebc0f3cb4163b7fc64d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/bf3d822ba0f86dad26efb4b73466eed7afa5bca7",
-                "reference": "bf3d822ba0f86dad26efb4b73466eed7afa5bca7",
+                "url": "https://api.github.com/repos/NREL/nrel_bootstrap/zipball/952c4937acb0046f55f82ebc0f3cb4163b7fc64d",
+                "reference": "952c4937acb0046f55f82ebc0f3cb4163b7fc64d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1338,7 +1260,6 @@
                 "drupal/console": "~1",
                 "drush/drush": "*"
             },
-            "default-branch": true,
             "type": "drupal-theme",
             "extra": {
                 "installer-paths": {
@@ -1376,15 +1297,9 @@
             "homepage": "https://github.com/NREL/nrel_bootstrap",
             "support": {
                 "issues": "https://github.com/NREL/nrel_bootstrap/issues",
-                "source": "https://github.com/NREL/nrel_bootstrap/tree/8.x-4.5.3"
+                "source": "https://github.com/NREL/nrel_bootstrap/tree/barrio-5.1.10"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
-            "time": "2023-05-11T16:52:33+00:00"
+            "time": "2024-08-14T15:58:42+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -1470,12 +1385,6 @@
                     "type": "patreon"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-07-20T13:53:39+00:00"
         },
         {
@@ -1529,12 +1438,6 @@
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-11-20T18:27:48+00:00"
         },
         {
@@ -1588,12 +1491,6 @@
             "support": {
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-04-19T19:15:47+00:00"
         },
@@ -1656,12 +1553,6 @@
             "keywords": [
                 "exception"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-03-21T15:43:46+00:00"
         },
         {
@@ -1714,12 +1605,6 @@
                 "psr",
                 "psr-6"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-02-03T23:26:27+00:00"
         },
         {
@@ -1779,12 +1664,6 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-11-05T16:47:00+00:00"
         },
         {
@@ -1837,12 +1716,6 @@
                 "psr",
                 "psr-14"
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
@@ -1900,12 +1773,6 @@
             ],
             "support": {
                 "source": "https://github.com/php-fig/http-client/tree/1.0.2"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2023-04-10T20:12:12+00:00"
         },
@@ -1968,12 +1835,6 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-04-10T20:10:41+00:00"
         },
         {
@@ -2033,12 +1894,6 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-04-04T09:54:51+00:00"
         },
         {
@@ -2095,12 +1950,6 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2021-07-14T16:46:02+00:00"
         },
         {
@@ -2147,12 +1996,6 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -2225,12 +2068,6 @@
                     "type": "github"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-07T05:35:17+00:00"
         },
         {
@@ -2327,12 +2164,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-16T10:10:12+00:00"
         },
         {
@@ -2420,12 +2251,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-16T17:55:17+00:00"
         },
         {
@@ -2499,12 +2324,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-23T14:45:45+00:00"
         },
         {
@@ -2585,12 +2404,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-16T17:05:46+00:00"
         },
         {
@@ -2677,12 +2490,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-06T06:56:43+00:00"
         },
         {
@@ -2765,12 +2572,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-23T14:45:45+00:00"
         },
         {
@@ -2854,12 +2655,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-22T08:20:46+00:00"
         },
         {
@@ -2979,12 +2774,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-26T13:54:49+00:00"
         },
         {
@@ -3075,12 +2864,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-31T07:08:24+00:00"
         },
         {
@@ -3169,12 +2952,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3264,12 +3041,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3357,12 +3128,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3456,12 +3221,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:30:37+00:00"
         },
         {
@@ -3552,12 +3311,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3647,12 +3400,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-28T09:04:16+00:00"
         },
         {
@@ -3735,12 +3482,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3830,12 +3571,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-01-26T09:26:14+00:00"
         },
         {
@@ -3922,12 +3657,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-16T06:22:46+00:00"
         },
         {
@@ -3995,12 +3724,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-07T10:39:22+00:00"
         },
         {
@@ -4096,12 +3819,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-26T11:53:26+00:00"
         },
         {
@@ -4191,12 +3908,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-31T07:08:24+00:00"
         },
         {
@@ -4297,12 +4008,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-24T14:35:28+00:00"
         },
         {
@@ -4391,12 +4096,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-23T14:45:45+00:00"
         },
         {
@@ -4489,12 +4188,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-05T08:41:27+00:00"
         },
         {
@@ -4579,12 +4272,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-05-30T17:17:10+00:00"
         },
         {
@@ -4687,12 +4374,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-17T15:49:05+00:00"
         },
         {
@@ -4783,12 +4464,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-24T14:51:05+00:00"
         },
         {
@@ -4869,12 +4544,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-16T18:14:47+00:00"
         },
         {
@@ -4953,12 +4622,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-07-31T07:08:24+00:00"
         },
         {
@@ -5019,12 +4682,6 @@
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
                 "source": "https://github.com/twbs/bootstrap/tree/v4.6.2"
-            },
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
             },
             "time": "2022-07-19T15:13:44+00:00"
         },
@@ -5103,12 +4760,6 @@
                     "type": "tidelift"
                 }
             ],
-            "transport-options": {
-                "ssl": {
-                    "verify_peer": false,
-                    "allow_self_signed": true
-                }
-            },
             "time": "2023-08-28T11:09:02+00:00"
         }
     ],
@@ -5122,5 +4773,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
