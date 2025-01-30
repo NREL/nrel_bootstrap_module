@@ -26,19 +26,21 @@
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    "assets": {
-      "type": "composer",
-      "url": "https://asset-packagist.nrel.gov/nrel/drupal8/",
-      "options": {
-          "ssl": {
-              "verify_peer": false,
-              "allow_self_signed": true
-          }
-      }
-  }
+    "assets" : {
+        "type": "composer",
+        "url": "https://packagist-repo.nrel.gov/nrel/communications/",
+        "options" : {
+            "ssl" : {
+                "verify_peer": false,
+                "allow_self_signed": true
+            }
+        }
+    },
+    "packagist.org": false,
+    "packages.drupal.org": false
 },
   "require": {
     "nrel/nrel_bootstrap": "dev-8.x-4.5.3",
-    "drupal/core": "^9.5.8"
+    "drupal/core": "^10"
   }
 }
