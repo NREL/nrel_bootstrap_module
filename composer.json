@@ -5,21 +5,16 @@
   "license": "GPL-2.0",
   "prefer-stable": true,
   "minimum-stability": "dev",
-  "homepage": "https://github.com/NREL/nrel_bootstrap_module",
+  "homepage": "https://github.com/NatLabRockies/nrel_bootstrap_module",
   "authors": [
     {
       "name": "Shaun Laws (slaws)",
-      "email": "shaun.laws@nrel.gov",
-      "role": "Co-maintainer"
-    },
-    {
-      "name": "Chris Modern (cmodern)",
-      "email": "christian.modern@nrel.gov",
-      "role": "Co-maintainer"
+      "email": "shaun.laws@nlr.gov",
+      "role": "Maintainer"
     }
   ],
   "support": {
-    "issues": "https://github.com/NREL/nrel_bootstrap_module/issues"
+    "issues": "https://github.com/NatLabRockies/nrel_bootstrap_module/issues"
   },
   "repositories": {
     "drupal": {
@@ -39,5 +34,10 @@
 },
   "require": {
     "nrel/nrel_bootstrap": "dev-d11"
+  },
+  "config": {
+    "allow-plugins": {
+      "drupal/core-composer-scaffold": true
+    }
   }
 }
