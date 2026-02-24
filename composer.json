@@ -1,6 +1,6 @@
 {
   "name": "nrel/nrel_bootstrap_module",
-  "description": "Companion module to the NREL Bootstrap theme.",
+  "description": "Companion module to the NLR Bootstrap theme.",
   "type": "drupal-module",
   "license": "GPL-2.0",
   "prefer-stable": true,

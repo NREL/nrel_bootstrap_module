@@ -1,5 +1,5 @@
-name: 'NREL Bootstrap Module'
+name: 'NLR Bootstrap Module'
 type: module
-description: 'Companion module to the NREL Bootstrap theme.'
+description: 'Companion module to the NLR Bootstrap theme.'
 core_version_requirement: ^10 || ^11
 version: 5.1.0
